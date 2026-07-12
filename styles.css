@@ -1012,7 +1012,7 @@ footer {
   overflow: hidden;
   transition: border-color .25s, box-shadow .25s;
 }
-.faq-item.open {
+.faq-item[open] {
   border-color: var(--accent-soft);
   box-shadow: var(--shadow-md);
 }
@@ -1053,7 +1053,7 @@ footer {
   border-radius: 50%;
   background: rgba(180,138,79,.1);
 }
-.faq-item.open summary::after {
+.faq-item[open] > summary::after {
   content: '−';
   background: var(--accent);
   color: #fff;
@@ -1068,7 +1068,7 @@ footer {
   transition: max-height .35s cubic-bezier(.4,0,.2,1), padding .25s ease;
   padding: 0 24px;
 }
-.faq-item.open .faq-body {
+.faq-item[open] > .faq-body {
   max-height: 800px;
   padding: 0 24px 24px;
 }
