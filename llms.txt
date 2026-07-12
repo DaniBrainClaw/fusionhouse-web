@@ -4,11 +4,12 @@
 
 ## Lo que hace
 
-Fusion House diseña, fabrica y monta la estructura industrializada de viviendas unifamiliares y ofrece dos bloques modulares opcionales para cubrir el resto de la vivienda. La empresa NO entrega casas llave en mano tradicionales: el servicio base es la estructura completa (paneles steel frame, entramados de madera, cubierta, cerramiento de fachada y carpintería exterior) en 8-12 semanas. Las instalaciones interiores y los acabados los realiza el cliente o su contrata, salvo los módulos opcionales de maquinaria y elementos visuales que ofrece Fusion House.
+Fusion House diseña, fabrica y monta la estructura industrializada de viviendas unifamiliares y ofrece dos bloques modulares opcionales para cubrir el resto de la vivienda. La empresa NO entrega casas llave en mano tradicionales: el servicio base es la estructura completa (paneles steel frame, entramados de madera, cubierta, cerramiento de fachada y carpintería exterior) en 8-12 semanas desde 390 €/m² construido. Las instalaciones interiores y los acabados los realiza el cliente o su contrata, salvo los módulos opcionales de maquinaria y elementos visuales que ofrece Fusion House.
 
 ## Servicios
 
 ### Estructura (servicio base)
+- Precio: desde 390 €/m² construido (sin IVA, 10% en vivienda nueva)
 - Diseño, cálculo de estructura y proyecto técnico visado
 - Fabricación industrial de paneles steel frame y entramados de madera en nave con CNC
 - Cimentación ligera (losa o forjado sanitario)
@@ -19,12 +20,14 @@ Fusion House diseña, fabrica y monta la estructura industrializada de viviendas
 - Calificación energética A garantizada
 
 ### Maquinaria (módulo opcional)
+- Precio: a medida, oferta cerrada por escrito (no se mide por superficie, se dimensiona por vivienda)
 - Aerotermia (climatización eficiente con el aire)
 - Recuperador de calor (ventilación continua sin pérdida de temperatura)
 - Climatización (suelo radiante, fan-coils o splits)
 - Ventilación mecánica controlada
 
 ### Elementos visuales (módulo opcional)
+- Precio: a medida según materiales y calidades elegidas, oferta cerrada por escrito
 - Papeles pintados
 - Mecanismos eléctricos (enchufes e interruptores de diseño)
 - Mobiliario (a medida o de catálogo)
@@ -39,6 +42,7 @@ Cualquier modelo es posible. Carpe, Artículo y Franja son tres modelos base que
 - **Artículo**: vivienda compacta de 1 planta con 1-3 habitaciones. Plazo estructura 6-8 semanas.
 - **Franja**: vivienda amplia de 4+ habitaciones en 1 o 2 plantas. Plazo estructura 8-12 semanas.
 - **A medida**: proyecto personalizado desde cero. Cualquier parcela, cualquier programa.
+- **Precios pre-configurados**: Carpe, Artículo y Franja tienen precio exacto publicado en la web. Solicita oferta cerrada con la configuración que prefieras.
 
 ## Datos clave
 
@@ -49,6 +53,10 @@ Cualquier modelo es posible. Carpe, Artículo y Franja son tres modelos base que
 - Sistema constructivo: steel frame (perfiles de acero galvanizado ligero, espesor 0.8-1.5 mm) + entramados de madera. Cimentación sobre losa o forjado sanitario, sin excavación masiva.
 - Cumplimiento normativo: CTE DB-SE (Seguridad Estructural), CTE DB-HE (Ahorro Energético), Eurocódigo.
 - Calificación energética: A en todas las viviendas (no es aspiración, es garantía del sistema).
+- Precio estructura: desde 390 €/m² construido (sin IVA, 10% en vivienda nueva). El precio final depende del modelo, superficie, ubicación y complejidad.
+- Casas pre-configuradas: Carpe, Artículo y Franja tienen precio cerrado exacto publicado en la web.
+- Módulo Maquinaria (opcional): se presupuesta a medida según equipamientos elegidos (aerotermia, recuperador de calor, climatización, ventilación mecánica). No se mide por superficie.
+- Módulo Elementos visuales (opcional): se presupuesta a medida según materiales y calidades elegidas (papeles pintados, mecanismos eléctricos, mobiliario, cocina, baños).
 - Acero 100% reciclable. Residuos en obra reducidos un 70% frente a construcción tradicional.
 - Sin albañil en la fase de estructura (equipo propio). Para instalaciones y elementos visuales, módulos opcionales o elección libre del cliente.
 - Teléfono: +34 654 15 11 50. Email: fusionhouse.es@gmail.com.
