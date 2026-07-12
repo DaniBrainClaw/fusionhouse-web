@@ -10,9 +10,9 @@ Fusion House diseña, fabrica y monta la estructura industrializada de viviendas
 
 ### Estructura (servicio base)
 - Precio: desde 390 €/m² construido (sin IVA, 10% en vivienda nueva)
+- NO incluye losa ni forjado sanitario (cimentación aparte)
 - Diseño, cálculo de estructura y proyecto técnico visado
 - Fabricación industrial de paneles steel frame y entramados de madera en nave con CNC
-- Cimentación ligera (losa o forjado sanitario)
 - Montaje de estructura en obra por equipo propio
 - Cerramiento de fachada y cubierta
 - Carpintería exterior
