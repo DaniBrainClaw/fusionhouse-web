@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fusion House — Viviendas steel frame en Castilla y León</title>
+<meta name="description" content="Viviendas prefabricadas steel frame y entramados de madera en Castilla y León. Estructura en 8-12 semanas, sin albañil, sobre losa o forjado sanitario. Modelos CARPE, FRANJA y ARTÍCULO.">
+<meta name="keywords" content="vivienda prefabricada, steel frame, entramados madera, Valladolid, Castilla y León, casa prefabricada, construcción industrializada">
+<meta name="author" content="Fusion House">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Fusion House — Viviendas steel frame en Castilla y León">
+<meta property="og:description" content="Estructura de vivienda en 8-12 semanas. Steel frame + entramados de madera. Sobre losa o forjado sanitario, sin albañil.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fusionhouse.es">
+<meta property="og:image" content="assets/carpe.jpg">
+
+<link rel="icon" type="image/png" href="assets/logo-color.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #f6f3ee;
+  --bg-2: #ede7dc;
+  --ink: #1a1a1a;
+  --ink-soft: #4a4a4a;
+  --muted: #8a8478;
+  --accent: #c2a172;
+  --accent-dark: #9b7e54;
+  --steel: #3a4046;
+  --line: #d8d0c0;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+.serif { font-family: 'Abril Fatface', serif; font-weight: 400; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+a { color: var(--accent-dark); text-decoration: none; transition: color .2s; }
+a:hover { color: var(--ink); }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+/* Header */
+header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: rgba(246, 243, 238, 0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  z-index: 100;
+  padding: 16px 0;
+}
+.header-inner {
+  display: flex; justify-content: space-between; align-items: center;
+}
+.logo { height: 36px; }
+nav ul { display: flex; gap: 32px; list-style: none; }
+nav a {
+  font-size: 14px; font-weight: 500;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+nav a:hover { color: var(--accent-dark); }
+
+/* Hero */
+.hero {
+  min-height: 100vh;
+  display: flex; align-items: center;
+  background: linear-gradient(135deg, var(--steel) 0%, #1f2429 100%);
+  color: white;
+  padding-top: 80px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: url('assets/carpe.jpg') center/cover;
+  opacity: 0.25;
+}
+.hero-inner { position: relative; z-index: 1; max-width: 800px; }
+.hero h1 {
+  font-size: clamp(40px, 6vw, 72px);
+  line-height: 1.1;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+.hero p.lead {
+  font-size: clamp(18px, 2vw, 22px);
+  margin-bottom: 40px;
+  opacity: 0.95;
+  font-weight: 300;
+}
+.btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all .2s;
+}
+.btn:hover { background: var(--accent-dark); color: white; transform: translateY(-1px); }
+.btn-outline {
+  background: transparent;
+  border: 2px solid white;
+  margin-left: 12px;
+}
+.btn-outline:hover { background: white; color: var(--steel); }
+
+/* Sections */
+section { padding: 100px 0; }
+.section-light { background: var(--bg); }
+.section-cream { background: var(--bg-2); }
+.section-dark { background: var(--steel); color: white; }
+
+.section-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.section-header h2 {
+  font-size: clamp(32px, 4vw, 48px);
+  margin-bottom: 16px;
+}
+.section-header p {
+  font-size: 18px;
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+.section-dark .section-header p { color: rgba(255,255,255,0.7); }
+
+/* Values */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin-top: 60px;
+}
+.value-card {
+  text-align: center;
+  padding: 40px 24px;
+}
+.value-card h3 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: var(--accent-dark);
+}
+.section-dark .value-card h3 { color: var(--accent); }
+.value-card p {
+  font-size: 16px;
+  color: var(--ink-soft);
+  line-height: 1.7;
+}
+.section-dark .value-card p { color: rgba(255,255,255,0.85); }
+
+/* Modelos */
+.models-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  margin-top: 60px;
+}
+.model-card {
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  transition: transform .3s, box-shadow .3s;
+}
+.model-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.12); }
+.model-img {
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+}
+.model-info { padding: 28px; }
+.model-info h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.model-tag {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent-dark);
+  margin-bottom: 8px;
+}
+.model-info p { color: var(--ink-soft); font-size: 15px; }
+
+/* Sobre nosotros */
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.about-text h2 { font-size: 40px; margin-bottom: 24px; }
+.about-text p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: var(--ink-soft);
+  line-height: 1.8;
+}
+.about-image {
+  height: 480px;
+  background: url('assets/articulo.jpg') center/cover;
+  border-radius: 4px;
+}
+
+/* Proceso */
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  margin-top: 60px;
+}
+.process-step {
+  text-align: center;
+  padding: 24px;
+}
+.process-num {
+  font-size: 56px;
+  color: var(--accent);
+  opacity: 0.6;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+.process-step h4 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.process-step p {
+  font-size: 14px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+.section-dark .process-step p { color: rgba(255,255,255,0.8); }
+
+/* Contacto */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+.contact-info h2 { font-size: 40px; margin-bottom: 24px; }
+.contact-info p { color: var(--ink-soft); margin-bottom: 32px; }
+.contact-method {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding: 16px;
+  background: white;
+  border-radius: 4px;
+}
+.contact-method-icon {
+  width: 44px; height: 44px;
+  background: var(--accent);
+  color: white;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 18px;
+}
+.contact-method-text strong { display: block; font-size: 14px; color: var(--ink); }
+.contact-method-text a { color: var(--ink-soft); font-size: 15px; }
+
+.contact-form {
+  background: white;
+  padding: 40px;
+  border-radius: 4px;
+}
+.form-group { margin-bottom: 20px; }
+.form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+  color: var(--ink);
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 15px;
+  background: var(--bg);
+}
+.form-group textarea { min-height: 100px; resize: vertical; }
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: white;
+}
+.checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.checkbox-group input { width: auto; margin-top: 4px; }
+.checkbox-group label {
+  font-size: 13px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--ink-soft);
+}
+
+/* Footer */
+footer {
+  background: #14181b;
+  color: rgba(255,255,255,0.7);
+  padding: 48px 0 32px;
+  text-align: center;
+}
+footer img { height: 32px; margin: 0 auto 24px; opacity: 0.9; }
+footer p { font-size: 13px; margin-bottom: 8px; }
+footer a { color: rgba(255,255,255,0.9); }
+
+/* Mobile */
+@media (max-width: 768px) {
+  nav ul { display: none; }
+  .about-content,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .about-image { height: 300px; }
+  section { padding: 60px 0; }
+  .btn-outline { margin-left: 0; margin-top: 12px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <a href="#"><img src="assets/logo-color.png" alt="Fusion House" class="logo"></a>
+    <nav>
+      <ul>
+        <li><a href="#modelos">Modelos</a></li>
+        <li><a href="#proceso">Cómo funciona</a></li>
+        <li><a href="#sobre">Sobre nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <h1 class="serif">Tu vivienda a medida en 8–12 semanas.</h1>
+    <p class="lead">Steel frame y entramados de madera. Sobre losa o forjado sanitario, sin albañil. Construcción industrializada en Castilla y León.</p>
+    <a href="#modelos" class="btn">Ver modelos</a>
+    <a href="#contacto" class="btn btn-outline">Pedir presupuesto</a>
+  </div>
+</section>
+
+<section id="valores" class="section-light">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="serif">Por qué steel frame</h2>
+      <p>Tres razones por las que cada vez más familias en Castilla y León eligen construcción industrializada.</p>
+    </div>
+    <div class="values-grid">
+      <div class="value-card">
+        <h3 class="serif">Rapidez</h3>
+        <p>Estructura completa montada en 8–12 semanas. Sin esperas de albañil, sin cimentación profunda, sin retrasos por clima.</p>
+      </div>
+      <div class="value-card">
+        <h3 class="serif">Eficiencia</h3>
+        <p>Viviendas 100% eficientes y certificadas. Steel frame + entramados de madera = aislamiento superior y consumo mínimo.</p>
+      </div>
+      <div class="value-card">
+        <h3 class="serif">Sostenibilidad</h3>
+        <p>Acero galvanizado reciclable al 100%. Madera certificada. Sistema industrializado que minimiza residuos en obra.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="modelos" class="section-cream">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="serif">Nuestros modelos</h2>
+      <p>Tres modelos base, totalmente personalizables en distribución y acabados.</p>
+    </div>
+    <div class="models-grid">
+      <div class="model-card">
+        <div class="model-img" style="background-image: url('assets/carpe.jpg');"></div>
+        <div class="model-info">
+          <span class="model-tag">2 plantas</span>
+          <h3 class="serif">Carpe</h3>
+          <p>Vivienda en dos plantas con cuatro o más habitaciones. Ideal para familias que necesitan espacio y separación de ambientes.</p>
+        </div>
+      </div>
+      <div class="model-card">
+        <div class="model-img" style="background-image: url('assets/articulo.jpg');"></div>
+        <div class="model-info">
+          <span class="model-tag">1–3 habitaciones</span>
+          <h3 class="serif">Artículo</h3>
+          <p>Modelo compacto de una planta, perfecto para parejas o como segunda residencia. Optimizado para parcela mínima.</p>
+        </div>
+      </div>
+      <div class="model-card">
+        <div class="model-img" style="background-image: url('assets/carpe.jpg'); background-position: center 30%;"></div>
+        <div class="model-info">
+          <span class="model-tag">4+ habitaciones</span>
+          <h3 class="serif">Franja</h3>
+          <p>Modelo amplio en una o dos plantas, con cuatro o más habitaciones. Distribuciones personalizables según parcela y orientación.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" class="section-light">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-text">
+        <h2 class="serif">Sobre nosotros</h2>
+        <p>En Fusion House estamos especializados en viviendas de estructura prefabricada con sistema steel frame y entramados ligeros de madera. Disponemos de gran variedad de modelos en una o varias plantas, entre los que poder escoger el que mejor se adapte a las necesidades de cada cliente.</p>
+        <p>Nuestra metodología industrializada reduce costes, agiliza el proceso de construcción y ofrece una gran versatilidad en configuración exterior, distribución interior y acabados. El resultado: viviendas totalmente personalizables, de alta eficiencia energética, y siempre con los materiales de la mejor calidad.</p>
+        <p>Además, nuestro sistema reduce al máximo los desperdicios generados durante el montaje, siendo eficiente y respetuoso con el medio ambiente.</p>
+        <p>También diseñamos viviendas a medida, creando desde cero un espacio totalmente personalizado que responda a las necesidades reales de cada cliente. Entregamos la estructura lista para que el cliente finalice instalaciones y acabados a su ritmo.</p>
+      </div>
+      <div class="about-image"></div>
+    </div>
+  </div>
+</section>
+
+<section id="proceso" class="section-dark">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="serif">Cómo funciona</h2>
+      <p>De la primera reunión a la entrega de estructura en menos de tres meses.</p>
+    </div>
+    <div class="process-grid">
+      <div class="process-step">
+        <div class="process-num serif">1</div>
+        <h4>Diseño y cálculo</h4>
+        <p>Proyecto técnico visado por arquitecto. Adaptamos el modelo elegido a tu parcela y necesidades.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num serif">2</div>
+        <h4>Fabricación</h4>
+        <p>Paneles y estructura fabricados en nave con CNC. Control de calidad industrial.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num serif">3</div>
+        <h4>Cimentación ligera</h4>
+        <p>Losa o forjado sanitario. Sin excavación profunda, sin albañil.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num serif">4</div>
+        <h4>Montaje</h4>
+        <p>Equipo propio monta la estructura en obra. Entrega en 8–12 semanas desde inicio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="section-cream">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2 class="serif">¿Hablamos?</h2>
+        <p>Cuéntanos qué necesitas y te preparamos un presupuesto sin compromiso. Atendemos en Valladolid y toda Castilla y León.</p>
+        <div class="contact-method">
+          <div class="contact-method-icon">✉</div>
+          <div class="contact-method-text">
+            <strong>Email</strong>
+            <a href="mailto:fusionhouse.es@gmail.com">fusionhouse.es@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-method">
+          <div class="contact-method-icon">☏</div>
+          <div class="contact-method-text">
+            <strong>Teléfono</strong>
+            <a href="tel:+34654151150">654 15 11 50</a>
+          </div>
+        </div>
+        <div class="contact-method">
+          <div class="contact-method-icon">⌖</div>
+          <div class="contact-method-text">
+            <strong>Zona</strong>
+            <span style="color: var(--ink-soft); font-size: 15px;">Valladolid · Castilla y León</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/REEMPLAZAR" method="POST">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div class="form-group">
+          <label for="modelo">Modelo de interés</label>
+          <select id="modelo" name="modelo">
+            <option value="">— Sin preferencia —</option>
+            <option value="carpe">Carpe (2 plantas)</option>
+            <option value="articulo">Artículo (1–3 hab)</option>
+            <option value="franja">Franja (4+ hab)</option>
+            <option value="amedida">A medida</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Cuéntanos tu proyecto</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Ubicación de la parcela, plazos, presupuesto orientativo…"></textarea>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="privacidad" name="privacidad" required>
+          <label for="privacidad">Acepto la <a href="#">política de privacidad</a></label>
+        </div>
+        <button type="submit" class="btn" style="width: 100%;">Enviar solicitud</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <img src="assets/logo-blanco.png" alt="Fusion House">
+    <p><strong style="color: white;">Fusion House</strong> — Steel frame y entramados de madera en Castilla y León</p>
+    <p>fusionhouse.es@gmail.com · 654 15 11 50 · Valladolid</p>
+    <p style="margin-top: 24px; font-size: 12px;">© 2020–2026 Fusion House. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+</body>
+</html>
