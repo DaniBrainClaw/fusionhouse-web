@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: https://fusionhouse.es/sitemap.xml
+
+# Bloqueo de bots de scraping no éticos (ahorro de ancho de banda)
+User-agent: MJ12bot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+
+# Permitir todos los demás rastreadores útiles (Google, Bing, DuckDuckGo, LLMs)
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: CCBot
+Allow: /
