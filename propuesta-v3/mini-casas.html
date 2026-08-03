@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mini casas · Fusion House</title>
+<meta name="description" content="Mini casas prefabricadas industrializadas — modelos compactos de Fusion House listos en 6 meses, totalmente personalizables.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#2d4a3e">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mini casas | Fusion House">
+<meta property="og:description" content="Mini casas prefabricadas industrializadas — modelos compactos de Fusion House listos en 6 meses, totalmente personalizables.">
+<meta property="og:url" content="https://danibrainclaw.github.io/fusionhouse-web/propuesta-v3/">
+<meta property="og:locale" content="es_ES">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mini casas | Fusion House">
+<meta name="twitter:description" content="Mini casas prefabricadas industrializadas — modelos compactos de Fusion House listos en 6 meses, totalmente personalizables.">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo.png">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="v3-banner" role="note">v3 (BRAIN) — propuesta de rediseño. La home oficial sigue en <a href="../index.html">index.html</a>.</div>
+<header class="site-header">
+  <nav class="nav" aria-label="Principal">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.png" alt="Fusion House" width="40" height="40">
+      <span>Fusion House</span>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <ul class="nav-links" id="primary-menu">
+    <li><a href="index.html#modelos">Modelos</a></li>
+    <li><a href="a-medida.html">A medida</a></li>
+    <li><a href="index.html#sobre-nosotros">Sobre nosotros</a></li>
+    <li><a href="pagina-de-contacto.html">Contacto</a></li>
+    </ul>
+    <a href="pagina-de-contacto.html" class="btn-cta">Pide presupuesto</a>
+  </nav>
+</header>
+<main>
+<section class="hero" style="min-height:40vh">
+  <div class="hero-inner">
+    <h1>Mini casas</h1>
+    <p class="lead">Modelos personalizables en distribución y acabados.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="modelos-grid">
+      <a class="modelo" href="modelo-ceiba-3hab.html"><img src="assets/img/modelo-modelo.jpg" alt="Modelo Ceiba mini" loading="lazy"><div class="modelo-name">Ceiba mini</div></a>
+<a class="modelo" href="modelo-iris-3hab.html"><img src="assets/img/modelo-modelo.jpg" alt="Modelo Iris mini" loading="lazy"><div class="modelo-name">Iris mini</div></a>
+<a class="modelo" href="modelo-thymus-3hab.html"><img src="assets/img/modelo-modelo.jpg" alt="Modelo Thymus mini" loading="lazy"><div class="modelo-name">Thymus mini</div></a>
+    </div>
+  </div>
+</section>
+
+<section class="section cta">
+  <div class="section-inner">
+    <h2>¿Te interesa alguno de estos modelos?</h2>
+    <p>Pide presupuesto sin compromiso.</p>
+    <a href="pagina-de-contacto.html" class="btn-gold">Pide presupuesto</a>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h4>Fusion House</h4>
+      <p>Viviendas industrializadas, eficientes y certificadas. Estructura prefabricada metálica o de madera, totalmente personalizable.</p>
+    </div>
+    <div>
+      <h4>Modelos</h4>
+      <ul style="list-style:none;padding:0;margin:0;line-height:2">
+        <li><a href="2-3-habitaciones.html">2 - 3 habitaciones</a></li>
+        <li><a href="4-o-mas-habitaciones.html">4 o más habitaciones</a></li>
+        <li><a href="mini-casas.html">Mini casas</a></li>
+        <li><a href="a-medida.html">A medida</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <p>Tel.: <a href="tel:+34654151150">+34 654 151 150</a><br>
+      Email: <a href="mailto:info@fusionhouse.es">info@fusionhouse.es</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Fusion House · Mediterranean Fusion SL</span>
+    <span>Construido con cariño por BRAIN 🧠</span>
+  </div>
+</footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+const toggle = document.querySelector('.nav-toggle');
+const menu = document.getElementById('primary-menu');
+if (toggle && menu) {
+  toggle.addEventListener('click', () => {
+    const open = menu.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+}
+</script>
+</body>
+</html>
