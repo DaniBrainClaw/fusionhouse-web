@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://danibrainclaw.github.io/fusionhouse-web/propuesta-v3/sitemap.xml
