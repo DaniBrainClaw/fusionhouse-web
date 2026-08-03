@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto · Fusion House</title>
+<meta name="description" content="Contacta con Fusion House para tu vivienda industrializada. Teléfono 654 151 150, email info@fusionhouse.es. Presupuesto sin compromiso.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#2d4a3e">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contacto | Fusion House">
+<meta property="og:description" content="Contacta con Fusion House para tu vivienda industrializada. Teléfono 654 151 150, email info@fusionhouse.es. Presupuesto sin compromiso.">
+<meta property="og:url" content="https://danibrainclaw.github.io/fusionhouse-web/propuesta-v3/">
+<meta property="og:locale" content="es_ES">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contacto | Fusion House">
+<meta name="twitter:description" content="Contacta con Fusion House para tu vivienda industrializada. Teléfono 654 151 150, email info@fusionhouse.es. Presupuesto sin compromiso.">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo.png">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="v3-banner" role="note">v3 (BRAIN) — propuesta de rediseño. La home oficial sigue en <a href="../index.html">index.html</a>.</div>
+<header class="site-header">
+  <nav class="nav" aria-label="Principal">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.png" alt="Fusion House" width="40" height="40">
+      <span>Fusion House</span>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <ul class="nav-links" id="primary-menu">
+    <li><a href="index.html#modelos">Modelos</a></li>
+    <li><a href="a-medida.html">A medida</a></li>
+    <li><a href="index.html#sobre-nosotros">Sobre nosotros</a></li>
+    <li><a href="pagina-de-contacto.html" style="color:var(--green-2);font-weight:600">Contacto</a></li>
+    </ul>
+    <a href="pagina-de-contacto.html" class="btn-cta">Pide presupuesto</a>
+  </nav>
+</header>
+<main>
+<section class="hero" style="min-height:40vh">
+  <div class="hero-inner">
+    <h1>Contacto</h1>
+    <p class="lead">Estamos disponibles para resolver tus dudas y preparar tu presupuesto sin compromiso.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner" style="display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start">
+    <div>
+      <h2 class="section-title" style="text-align:left">Escríbenos</h2>
+      <p>Teléfono: <a href="tel:+34654151150">+34 654 151 150</a></p>
+      <p>Email: <a href="mailto:info@fusionhouse.es">info@fusionhouse.es</a></p>
+      <p>WhatsApp: <a href="https://wa.me/34654151150">+34 654 151 150</a></p>
+      <p>Horario: L-V 9:00 a 18:00</p>
+    </div>
+    <div>
+      <h2 class="section-title" style="text-align:left">Pide presupuesto</h2>
+      <form action="mailto:info@fusionhouse.es?subject=Presupuesto%20Fusion%20House" method="post" enctype="text/plain" style="display:flex;flex-direction:column;gap:12px">
+        <label>Nombre<br><input type="text" name="nombre" required style="width:100%;padding:8px;border:1px solid var(--line);border-radius:4px"></label>
+        <label>Email<br><input type="email" name="email" required style="width:100%;padding:8px;border:1px solid var(--line);border-radius:4px"></label>
+        <label>Teléfono<br><input type="tel" name="telefono" style="width:100%;padding:8px;border:1px solid var(--line);border-radius:4px"></label>
+        <label>Mensaje<br><textarea name="mensaje" rows="5" required style="width:100%;padding:8px;border:1px solid var(--line);border-radius:4px"></textarea></label>
+        <button type="submit" class="btn-cta" style="border:0;cursor:pointer">Enviar</button>
+      </form>
+      <p style="font-size:13px;color:var(--muted);margin-top:16px">Al enviar este formulario aceptas nuestra política de privacidad. Tus datos solo se usan para responder a tu consulta.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h4>Fusion House</h4>
+      <p>Viviendas industrializadas, eficientes y certificadas. Estructura prefabricada metálica o de madera, totalmente personalizable.</p>
+    </div>
+    <div>
+      <h4>Modelos</h4>
+      <ul style="list-style:none;padding:0;margin:0;line-height:2">
+        <li><a href="2-3-habitaciones.html">2 - 3 habitaciones</a></li>
+        <li><a href="4-o-mas-habitaciones.html">4 o más habitaciones</a></li>
+        <li><a href="mini-casas.html">Mini casas</a></li>
+        <li><a href="a-medida.html">A medida</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <p>Tel.: <a href="tel:+34654151150">+34 654 151 150</a><br>
+      Email: <a href="mailto:info@fusionhouse.es">info@fusionhouse.es</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Fusion House · Mediterranean Fusion SL</span>
+    <span>Construido con cariño por BRAIN 🧠</span>
+  </div>
+</footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+const toggle = document.querySelector('.nav-toggle');
+const menu = document.getElementById('primary-menu');
+if (toggle && menu) {
+  toggle.addEventListener('click', () => {
+    const open = menu.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+}
+</script>
+</body>
+</html>
