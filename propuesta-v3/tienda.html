@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tienda · Fusion House</title>
+<meta name="description" content="Tienda Fusion House — mobiliario y complementos seleccionados para cada modelo de vivienda industrializada.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#2d4a3e">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tienda | Fusion House">
+<meta property="og:description" content="Tienda Fusion House — mobiliario y complementos seleccionados para cada modelo de vivienda industrializada.">
+<meta property="og:url" content="https://danibrainclaw.github.io/fusionhouse-web/propuesta-v3/">
+<meta property="og:locale" content="es_ES">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tienda | Fusion House">
+<meta name="twitter:description" content="Tienda Fusion House — mobiliario y complementos seleccionados para cada modelo de vivienda industrializada.">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo.png">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="v3-banner" role="note">v3 (BRAIN) — propuesta de rediseño. La home oficial sigue en <a href="../index.html">index.html</a>.</div>
+<header class="site-header">
+  <nav class="nav" aria-label="Principal">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.png" alt="Fusion House" width="40" height="40">
+      <span>Fusion House</span>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <ul class="nav-links" id="primary-menu">
+    <li><a href="index.html#modelos">Modelos</a></li>
+    <li><a href="a-medida.html">A medida</a></li>
+    <li><a href="index.html#sobre-nosotros">Sobre nosotros</a></li>
+    <li><a href="pagina-de-contacto.html">Contacto</a></li>
+    </ul>
+    <a href="pagina-de-contacto.html" class="btn-cta">Pide presupuesto</a>
+  </nav>
+</header>
+<main>
+<section class="hero" style="min-height:40vh">
+  <div class="hero-inner">
+    <h1>Tienda</h1>
+    <p class="lead">Mobiliario y complementos seleccionados para tu vivienda Fusion House.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <p style="text-align:center;color:var(--muted);max-width:720px;margin:0 auto 48px">
+      Ofrecemos paquetes de mobiliario llave en mano adaptados a cada modelo y a tu estilo. Tres niveles: básico, confort y premium.
+    </p>
+    <div class="values-grid">
+      <div class="value"><div class="value-icon">🛋️</div><h3>Básico</h3><p>Mobiliario funcional de líneas limpias. Salones, dormitorios y cocina completamente equipados.</p></div>
+      <div class="value"><div class="value-icon">🌿</div><h3>Confort</h3><p>Selección intermedia con marcas de reconocido prestigio. Mejor relación calidad-diseño.</p></div>
+      <div class="value"><div class="value-icon">✨</div><h3>Premium</h3><p>Diseño de autor y primeras marcas. Asesoramiento personalizado de interiorismo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section cta">
+  <div class="section-inner">
+    <h2>Información de paquetes</h2>
+    <p>Solicita el catálogo completo con precios por modelo y estancia.</p>
+    <a href="pagina-de-contacto.html" class="btn-gold">Solicitar catálogo</a>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h4>Fusion House</h4>
+      <p>Viviendas industrializadas, eficientes y certificadas. Estructura prefabricada metálica o de madera, totalmente personalizable.</p>
+    </div>
+    <div>
+      <h4>Modelos</h4>
+      <ul style="list-style:none;padding:0;margin:0;line-height:2">
+        <li><a href="2-3-habitaciones.html">2 - 3 habitaciones</a></li>
+        <li><a href="4-o-mas-habitaciones.html">4 o más habitaciones</a></li>
+        <li><a href="mini-casas.html">Mini casas</a></li>
+        <li><a href="a-medida.html">A medida</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <p>Tel.: <a href="tel:+34654151150">+34 654 151 150</a><br>
+      Email: <a href="mailto:info@fusionhouse.es">info@fusionhouse.es</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Fusion House · Mediterranean Fusion SL</span>
+    <span>Construido con cariño por BRAIN 🧠</span>
+  </div>
+</footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+const toggle = document.querySelector('.nav-toggle');
+const menu = document.getElementById('primary-menu');
+if (toggle && menu) {
+  toggle.addEventListener('click', () => {
+    const open = menu.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+}
+</script>
+</body>
+</html>
